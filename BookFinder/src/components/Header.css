@@ -1,0 +1,89 @@
+.header {
+  padding: 14px 24px;
+  background: linear-gradient(90deg, #3a8ef6, #5a67d8);
+  color: white;
+  border-radius: 0 0 16px 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.brand h1 {
+  font-size: 22px;
+  margin: 0;
+  font-weight: 600;
+}
+
+.logoBox {
+  font-size: 32px;
+}
+
+.header-icons {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.header-icons .icon {
+  font-size: 22px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.header-icons .icon:hover {
+  transform: scale(1.2);
+}
+
+.language-select {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.language-select select {
+  border: none;
+  border-radius: 6px;
+  padding: 4px 8px;
+  outline: none;
+  font-size: 14px;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+  gap: 10px;
+}
+
+.search-bar select,
+.search-bar input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  outline: none;
+}
+
+.search-bar button {
+  background: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.search-bar button:hover {
+  background: #e6e6e6;
+}
